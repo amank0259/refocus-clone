@@ -9,7 +9,7 @@ function Products() {
         { title: "Yahoo!", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum accusamus numquam alias earum odit.", live: true, case: true },
     ]
     return (
-        <div>
+        <div className='mt-20'>
             {products.map((item, index) => (
                 <Product val={item} />
             ))}
