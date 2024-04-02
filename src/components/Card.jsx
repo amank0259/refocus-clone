@@ -3,7 +3,7 @@ import { IoIosArrowRoundForward } from 'react-icons/io'
 
 function Card({ width, start, para, hover }) {
     return (
-        <div className={`${width} ${hover} bg-zinc-800 p-5 rounded-xl min-h-[30rem] flex flex-col justify-between`}>
+        <div className={`${width} ${hover} hover:p-6 bg-zinc-800 p-5 rounded-xl min-h-[30rem] flex flex-col justify-between`}>
             <div className='w-full'>
                 <div className='w-full flex justify-between items-center'>
                     <h3>one heading</h3>
